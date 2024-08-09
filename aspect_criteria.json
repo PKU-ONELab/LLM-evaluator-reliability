@@ -1,0 +1,104 @@
+{
+    "Fluency": {
+        "Gold": "Fluency: It measures the quality of individual sentences, are they grammatically correct, non-repetitive, and in accord with common English usage, with clear meanings.",
+        "Simplified": "Fluency: It measures whether individual sentences are grammatically correct and well-written.",
+        "Term": "Fluency: It measures whether the {T} is fluent.",
+        "Detailed": "Fluency: It measures the quality of individual sentences, are they grammatically correct, non-repetitive, and in accord with common English usage, with clear meanings. Consider whether there are misspellings, tense errors, missing determiners, or more severe problems, such as duplication, unfamiliar phrases, complex syntactic structures, and missing components.",
+        "List": "Fluency: It measures the quality of individual sentences, are they grammatically correct, non-repetitive, and in accord with common English usage, with clear meanings.\nScore 5: Entirely fluent, grammatically correct, and well-written.\nScore 4: Only containing some minor non-fluent parts or grammatical errors that basically have no effect on fluency.\nScore 3: Fluent in general, with some obvious grammatical errors and unfamiliar phrases.\nScore 2: There are major grammatical errors, duplication, unfamiliar phrases and syntactic structures, and missing components, but some fluent segments.\nScore 1: Not fluent at all, full of meaningless fragments and unclear contents.",
+        "Selection1": "Fluency: Description: Quality of individual sentences.",
+        "Selection2": "Fluency: Whether the generated {T} is grammatically correct.",
+        "Selection3": "Fluency: The rating measures the quality of individual sentences, are they well-written and grammatically correct. Consider the quality of individual sentences."
+    },
+    "Coherence": {
+        "Gold": "Coherence: It measures the quality of all sentences collectively, do they make sense as a whole, with the context organized and connected logically.",
+        "Simplified": "Coherence: It measures whether all the sentences are organized and connected logically.",
+        "Term": "Coherence: It measures whether the {T} is coherent.",
+        "Detailed": "Coherence: It measures the quality of all sentences collectively, do they make sense as a whole, with the context organized and connected logically. Consider whether they have good context-relatedness with reasonable conjunctions, semantic consistency, and inter-sentence causal and temporal dependencies.",
+        "List": "Coherence: It measures the quality of all sentences collectively, do they make sense as a whole, with the context organized and connected logically.\nScore 5: Entirely coherent, with good context-relatedness among all the sentences.\nScore 4: Only containing some minor illogical parts that basically do not affect overall coherency.\nScore 3: Coherent in general, with some obvious conflicting logical or inconsistent problems.\nScore 2: There are major unreasonable logic and semantic inconsistencies, but at least the related topic.\nScore 1: Not coherent at all, full of self-contradictory or unrelated content.",
+        "Selection1": "Discourse Coherence: Whether the {T} is well organized, with the sentences smoothly connected and flow together logically and aesthetically?",
+        "Selection2": "Coherence: Description: Collective quality of all sentences.",
+        "Selection3": "Coherence: The rating measures the quality of all sentences collectively, to fit together and sound natural. Consider the quality of the {T} as a whole."
+    },
+    "Grammaticality": {
+        "Gold": "Grammaticality: It measures whether the {T} is grammatically correct without any lexical or syntax errors, regardless of its content and meaning.",
+        "Simplified": "Grammaticality: It measures whether the {T} has no grammatical errors.",
+        "Term": "Grammaticality: It measures whether the {T} is grammatical.",
+        "Detailed": "Grammaticality: It measures whether the {T} is grammatically correct without any lexical or syntax errors, regardless of its content and meaning. Consider whether the {T} itself complies with the English standard usage and rules of grammar, such as tense errors, misspellings, incorrect prepositions, collocation misusages, and so on.",
+        "List": "Grammaticality: It measures whether the {T} is grammatically correct without any lexical or syntax errors, regardless of its content and meaning.\nScore 5: Entirely grammatically correct, following the rules of English grammar.\nScore 4: Basically grammatical, with a few minor grammar errors.\nScore 3: There are some obvious grammatical errors that affect the sentence’s expression.\nScore 2: Containing many severe grammatical errors whose originally intended usages even cannot be judged.\nScore 1: Not grammatical at all, full of grammar errors.",
+        "Selection1": "Grammar – ability to generate grammatically correct and fluent {T}s.",
+        "Selection2": "Grammaticality measures whether the {T} contains syntax errors. It refers to the conformity of the {T} to the rules defined by the specific grammar of a language.",
+        "Selection3": "Correctness: Whether there are grammatical errors in the {T}."
+    },
+    "Simplicity": {
+        "Gold": "Simplicity: It measures whether the {T} is sufficiently simple and easy for people who aren't very good at English to get the correct meaning.",
+        "Simplified": "Simplicity: It measures whether the {T} is simple and easy to get the meaning.",
+        "Term": "Simplicity: It measures whether the {T} is simple.",
+        "Detailed": "Simplicity: It measures whether the {T} is sufficiently simple and easy for people who aren't very good at English to get the correct meaning. Consider whether the {T} adopts simplified and common usage of phrases and sentences, and avoid any unfamiliar words or complicated syntactic structures.",
+        "List": "Simplicity: It measures whether the {T} is sufficiently simple and easy for people who aren't very good at English to get the correct meaning.\nScore 5: Entirely simple, without any complicated words or syntactic structures.\nScore 4: Only containing a small number of unfamiliar words.\nScore 3: There are some uncommon phrases and complicated structures, which makes it a little hard to get the {T}'s meaning.\nScore 2: Despite some simple words, the {T} has many unfamiliar phrases and complicated sentences.\nScore 1: Not simple at all, full of complex expressions that are quite difficult to read.",
+        "Selection1": "The goal is to judge whether the {T} is simpler than the {S}."
+    },
+    "Readability": {
+        "Gold": "Readability: It measures the quality of both inter- and intra-sentences, are they grammatically correct and naturally written, with clear meanings and good context-relatedness and logic.",
+        "Simplified": "Readability: It measures whether the {T} is well-written, logical and clear.",
+        "Term": "Readability: It measures whether the {T} is readable.",
+        "Detailed": "Readability: It measures the quality of both inter- and intra-sentences, are they grammatically correct and naturally written, with clear meanings and good context-relatedness and logic. Consider whether there are grammar errors, duplication, uncommon phrases and syntactic structures, unreasonable conjunctions, semantic inconsistency, and so on.",
+        "List": "Readability: It measures the quality of both inter- and intra-sentences, are they grammatically correct and naturally written, with clear meanings and good context-relatedness and logic.\nScore 5: Entirely well readable, with no grammar errors, uncommon usages, or poor logic.\nScore 4: Only containing some minor writing or logical problems that basically do not affect reading.\nScore 3: Readable in general, with some obvious errors in grammar, collocations, or consistency.\nScore 2: There are major writing and logical problems, but some readable segments.\nScore 1: Not readable at all, full of fragments that cannot be understood.",
+        "Selection1": "Readability takes into account word and grammatical error rate to evaluate how fluent the {T} language is.",
+        "Selection2": "Fluency: The {T} sentences should be grammatically correct, easy to read and understand."
+    },
+    "Faithfulness": {
+        "Gold": "Faithfulness: It measures whether all the information contained in the {T} is consistent with and factually supported by the {S}.",
+        "Simplified": "Faithfulness: It measures whether the {T} can be supported by the {S}.",
+        "Term": "Faithfulness: It measures whether the {T} is faithful.",
+        "Detailed": "Faithfulness: It measures whether all the information contained in the {T} is consistent with and factually supported by the {S}. Consider whether there are fabricated contents that cannot be inferred from the {S}, including those contradicting the facts in the {S}, and additional information that is not mentioned and cannot be verified by the {S}.",
+        "List": "Faithfulness: It measures whether all the information contained in the {T} is consistent with and factually supported by the {S}.\nScore 5: Entirely faithful, all the facts in the {T} can be inferred from the {S}.\nScore 4: The {T} is almost factually aligned with the {S} but contains unsupported minor information.\nScore 3: There are some main but unverifiable or contradictory contents in the {T}, according to the {S}.\nScore 2: Only a small part of the information in the {T} can be inferred from the {S}.\nScore 1: Not faithful at all, the {T} has nothing to do with the {S}.",
+        "Selection1": "Faithfulness: Whether the {T} accords with the facts expressed in the {S}.",
+        "Selection2": "Consistency: The rating measures whether the facts in the {T} are consistent with the facts in the {S}. Consider whether the {T} does reproduce all facts accurately and does not make up untrue information.",
+        "Selection3": "Faithful or factually consistent: A {T} is factually consistent to the {S} if all the information in the {T} can be supported by the {S}. Common errors in model-generated {T}s include information that is not mentioned or incorrect according to the input {S}. Sometimes, the {T} can be misleading because a crucial piece of information is absent."
+    },
+    "Non-contradiction": {
+        "Gold": "Non-contradiction: It measures whether the {T} contains no information that definitely contradicts certain contents of the {S}.",
+        "Simplified": "Non-contradiction: It measures whether the {T} does not contradict the {S}.",
+        "Term": "Non-contradiction: It measures whether the {T} has no contradictions.",
+        "Detailed": "Non-contradiction: It measures whether the {T} contains no information that definitely contradicts certain contents of the {S}. Consider whether there are contradictory contents such as incorrect entities, different expressions that distort the original meaning, false concatenation of crucial information from different places of the {S}, and so on.",
+        "List": "Non-contradiction: It measures whether the {T} contains no information that definitely contradicts certain contents of the {S}.\nScore 5: No contradictions, all the facts in the {T} do not conflict with the {S}.\nScore 4: Just containing a few contradictory but unimportant contents.\nScore 3: There is some main information, like key entities, contradicting the {S}, leading to distorted meanings.\nScore 2: Almost all the contents of the {T} conflict with the {S}, except for several facts.\nScore 1: Entirely contradictory, all the facts in the {T} do contradict the {S}.",
+        "Selection1": "Contradiction, whether the {T} contains any pieces of information that are contradicting the given {S} or not."
+    },
+    "Non-hallucination": {
+        "Gold": "Non-hallucination: It measures whether the {T} contains no additional information that is not exactly mentioned and cannot be verified by the {S}.",
+        "Simplified": "Non-hallucination: It measures whether the {T} is verifiable according to the {S}.",
+        "Term": "Non-hallucination: It measures whether the {T} has no hallucinations.",
+        "Detailed": "Non-hallucination: It measures whether the {T} contains no additional information that is not exactly mentioned and cannot be verified by the {S}. Consider whether there are contents other than the {S} that cannot be proven correct or incorrect based on the {S}, or even are unrelated to the {S}.",
+        "List": "Non-hallucination: It measures whether the {T} contains no additional information that is not exactly mentioned and cannot be verified by the {S}.\nScore 5: No hallucinations, all the facts in the {T} can be proven correct or incorrect based on the {S}.\nScore 4: Just containing a few unverifiable but unimportant contents.\nScore 3: There are some non-negligible contents other than the {S}, leading to distorted meanings.\nScore 2: Almost all the contents of the {T} are unverifiable based on the {S}, except for several facts.\nScore 1: Full of hallucinations, the {T} cannot be verified by the {S} at all.",
+        "Selection1": "Hallucination error: Fabricated content that does not occur in the {S}.",
+        "Selection2": "Not enough info: The {T} information is not relevant or not sufficient to support/refute the {S}."
+    },
+    "Informativeness": {
+        "Gold": "Informativeness: It measures how much required information of the {S} is contained in the {T}, according to the corresponding task.",
+        "Simplified": "Informativeness: It measures how well the {T} covers required contents of the {S}.",
+        "Term": "Informativeness: It measures whether the {T} is informative.",
+        "Detailed": "Informativeness: It measures how much required information of the {S} is contained in the {T}, according to the corresponding task. Consider how well the {T} correctly covers the contents that the task needs in the {S}, which may be necessary information and key points or the entire content.",
+        "List": "Informativeness: It measures how much required information of the {S} is contained in the {T}, according to the corresponding task.\nScore 5: Entirely informative, the {T} covers all the required information of the {S}.\nScore 4: The {T} captures the main points and only misses minor required information of the {S}.\nScore 3: There is some important information needed but not contained in the {T}, which disturbs the {S}’s meaning.\nScore 2: Only a few contents that the task needs in the {S} can be found in the {T}.\nScore 1: Not informative at all, the {T} does not involve any contents of the {S}.",
+        "Selection1": "Informativeness: Is important information captured?",
+        "Selection2": "Informativeness: Whether the {T} provides enough and necessary content coverage from the input {S}.",
+        "Selection3": "Coverage, i.e., whether the {T} covers the whole {S} or only part of the {S}."
+    },
+    "Adequacy": {
+        "Gold": "Adequacy: It measures whether the entire contents of the {T} exactly match the required information of the {S} without unnecessary points, according to the corresponding task.",
+        "Simplified": "Adequacy: It measures how well the {T} matches the required information of the {S}.",
+        "Term": "Adequacy: It measures whether the {T} is adequate.",
+        "Detailed": "Adequacy: It measures whether the entire contents of the {T} exactly match the required information of the {S} without unnecessary points, according to the corresponding task. Consider whether all the information contained in the {T} is factually supported by the {S} and covers all and only the contents that the task needs in the {S}.",
+        "List": "Adequacy: It measures whether the entire contents of the {T} exactly match the required information of the {S} without unnecessary points, according to the corresponding task.\nScore 5: Entirely adequate, the whole {T} matches the required information of the {S}.\nScore 4: Just containing some minor unmatched or unnecessary information.\nScore 3: There is some key information that cannot be supported by the {S} or is not needed by the task.\nScore 2: Only a small part of the information in the {T} matches the required information of the {S}, with many incorrect points.\nScore 1: Not adequate at all, the {T} is irrelevant and does not cover any content in the {S}.",
+        "Selection2": "Adequacy: Description: How correct is the {T} from the given {S}.",
+        "Selection1": "Adequacy is defined as how much information is preserved in the {T}. A score of 1 would mean that the {T} is meaningless and has no correlation with the {S}. A score of 5 would mean the {T} retains all of the information."
+    },
+    "Overall_quality": {
+        "Gold": "Overall quality: It measures not only the quality of the {T} itself, including writing and logic, but also how well the {T} matches the required information of the {S} according to the corresponding task.",
+        "Simplified": "Overall quality: It measures whether the {T} is well-written and logical, and matches the required points of the {S}.",
+        "Term": "Overall quality: It measures the overall quality of the {T}.",
+        "Detailed": "Overall quality: It measures not only the quality of the {T} itself, including writing and logic, but also how well the {T} matches the required information of the {S} according to the corresponding task. Consider whether the {T} is grammatically correct and naturally written, with clear meanings and good context-relatedness. Also consider whether all the information in the {T} is supported by the {S} and covers all and only the contents needed of the {S}.",
+        "List": "Overall quality: It measures not only the quality of the {T} itself, including writing and logic, but also how well the {T} matches the required information of the {S} according to the corresponding task.\nScore 5: Good overall quality, with no errors of grammar, expression, content alignment required, and so on.\nScore 4: Only with some minor writing and content problems.\nScore 3: There are some obvious errors that affect the meaning and understanding of the {T}, like unclear expressions and illogical context-relatedness.\nScore 2: Containing many major writing and logical errors and unmatched contents, but some good segments.\nScore 1: Poor overall quality, full of fragments that contain unrelated or untrue information and cannot be understood.",
+        "Selection1": "Overall (1-5) What is your overall impression of this {T}?\n- A score of 1 (very bad). A completely invalid {T}. It would be difficult to recover the {S} from this. \n- A score of 2 (bad). Valid {T}, but otherwise poor in quality. \n- A score of 3 (neutral) means this {T} is neither good nor bad. This {T} has no negative qualities, but no positive ones either. \n- A score of 4 (good) means this is a good {T}, but falls short of being perfect because of a key flaw. \n- A score of 5 (very good) means this {T} is good and does not have any strong flaws.",
+        "Selection2": "Overall quality: How good is the {T} overall at representing the {S}? If it’s hard to find ways to make the {T} better, give the {T} a high score. If there are lots of different ways the {T} can be made better, give the text a low score."
+    }
+}
